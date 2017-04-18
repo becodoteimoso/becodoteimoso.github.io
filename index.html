@@ -37,6 +37,51 @@
 		<div id="contents">
 <div class="post type-post status-publish format-standard hentry category-general" id="post">
 	<div class="entry-meta">
+		<div class="date"><a href="./Usando-pelican.html">Seg 17 abril 2017</a></div>
+		<span class="byline">By <a href="./author/jose-antonio.html">José Antônio</a></span>
+			<div class="comments"><a href="./Usando-pelican.html#disqus_thread" title="Comment on Usando Pelican como gerador de sites">comments</a></div>
+			<span class="cat-links"><a href="./category/geral.html" title="View all posts in Geral" rel="category tag">Geral</a></span>
+	</div> <!-- /#entry-meta -->
+	<div class="main">
+		<h2 class="entry-title">
+			<a href="./Usando-pelican.html" title="Permalink to Usando Pelican como gerador de sites" rel="bookmark">Usando Pelican como gerador de sites</a>
+		</h2>
+		<div class="entry-content">
+			<h2>Usando Pelican</h2>
+<p>Nos últimos dias tive a oportunidade de conhecer melhor o <a href="https://blog.getpelican.com/">Pelican</a> e suas funcionalidades, não sou programador e nem tenho qualquer experiência na área, no entanto não tive dificuldades em começar a utiliza-lo.
+O <a href="https://blog.getpelican.com/">Pelican</a> é um gerador de sites estáticos escrito em Python que pode ser utilizado em qualquer sistema operacional. Em meu caso estou utilizando o Pelican em uma máquina virtual com Debian 8 na distribuição <a href="https://www.qubes-os.org/">Qubes</a>.<br>
+Mas se não sei HTML como irei escrever o conteúdo do site? Basta você escrever as páginas utilizando <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> ou <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a>. Em meu caso estou escrevendo este texto em Markdown, caso queira ver este texto escrito antes da conversão para HTML clique <a href="http://www.becodoteimoso.com/pelican-ssg.md">aqui</a>.
+As instruções para a instalação do <a href="https://blog.getpelican.com/">Pelican</a> podem ser acessadas clicando neste <a href="http://docs.getpelican.com/en/stable/install.html">link</a>. O procedimento de instalação é bem fácil, basta apenas utilizar o comando:  </p>
+<blockquote>
+<p>pip install pelican  </p>
+</blockquote>
+<p>Obs: Estou considerando que seu sistema já possua instalado o <a href="https://www.python.org/">Python</a> e o <a href="https://pypi.python.org/pypi">PyPi</a>. =)<br>
+Após a instalação do <a href="https://blog.getpelican.com/">Pelican</a> vamos ao trabalho, ou seja, vamos configura-lo. Este é o procedimento inicial para que o site possa ser construído, para isso no terminal crie uma pasta para armazenar os arquivos do site:  </p>
+<blockquote>
+<p>mkdir ~/Documentos/site  </p>
+</blockquote>
+<p>Agora vamos acessar a pasta e configurar o Pelican.  </p>
+<blockquote>
+<p>cd ~/Documentos/site<br>
+pelican-quickstart  </p>
+</blockquote>
+<p>Basta apenas responder as perguntas que serão feitas e pronto, já temos a estrutura do site montada agora basta inciar a escrita dos artigos e páginas de seu site.<br>
+Para que seja gerado as páginas em HTML basta que o conteúdo seja salvo na pasta <em>content</em>. Após a escrita do material, retorne para a pasta raiz do site, neste exemplo a pasta <em>site</em>, e para gerar as páginas basta utilizar o comando:  </p>
+<blockquote>
+<p>pelican content  </p>
+</blockquote>
+<p>Os arquivos contidos na pasta <em>content</em> serão convertidos e salvos na pasta <em>output</em>. Agora basta fazer o upload dos arquivos da pasta <em>output</em> no servidor que você irá utilizar e pronto, seu site estará on-line.  </p>
+<h3>Minha experiência</h3>
+<p>Após o pequeno tutorial acima gostaria de descrever um pouco de minha experiência com relação ao uso do <a href="https://blog.getpelican.com/">Pelican</a>.<br>
+Tive algumas dificuldades para a configuração de alguns plugins e também para a configuração do sistema de comentários <a href="https://disqus.com/">Disqus</a> porem não foi nada que não houve-se um vasta quantidade de informações na internet que me auxiliaram na resolução destes problemas.
+Para reduzir ao máximo o custo de manutenção deste site escolhi como local para hospeda-lo o <a href="https://github.com/">GitHub</a> para isso tive que aprender a utilizar o <a href="https://git-scm.com/">Git</a>, neste ponto que fiquei supresso, esta é uma ferramenta extremamente poderosa para o gerenciamento de versões e utilização não é complicada, penso agora em utiliza-lo no meu trabalho para o controle das versões do sistema de gestão ambiental que coordeno.
+Espero que este pequeno texto seja o suficiente para que mais pessoas tomem coragem para construir seus próprios sites.</p>
+		</div> <!--/#entry-content-->
+    		<span class="tag-links"><strong>Tagged</strong>
+ <a href="./tag/git.html" rel="tag">Git</a>,  <a href="./tag/github.html" rel="tag">GitHub</a>,  <a href="./tag/hospedagem.html" rel="tag">Hospedagem</a>,  <a href="./tag/html.html" rel="tag">HTML</a>,  <a href="./tag/markdown.html" rel="tag">Markdown</a>,  <a href="./tag/pelican.html" rel="tag">Pelican</a>,  <a href="./tag/site.html" rel="tag">Site</a>    		</span>
+	</div> <!--/#main-->
+</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
+	<div class="entry-meta">
 		<div class="date"><a href="./um-novo-começo.html">Sex 14 abril 2017</a></div>
 		<span class="byline">By <a href="./author/jose-antonio.html">José Antônio</a></span>
 			<div class="comments"><a href="./um-novo-começo.html#disqus_thread" title="Comment on Um novo começo">comments</a></div>
@@ -49,7 +94,7 @@
 		<div class="entry-content">
 			<h2>Bem vindos amigos</h2>
 <p>Estou inciando um projeto que a anos venho postergando, tento as vezes entender o motivo da demora mas nunca chego a um conclusão que se aproxime do plausível.<br>
-Quando era mais novo tive a oportunidade de criar alguns páginas em <strong>HTML</strong>, utilizando o Netscape Composer, Frontpage e Dreanweaver todo foram hospedados no saudoso Geocities, essas pequenas experiências se perderam com o tempo. Contudo a algumas semanas escutando o <a href="http://castalio.info/">Castalio Podcast</a> tive conhecimento do <a href="https://blog.getpelican.com/">Pelican</a>, um gerador de site estáticos que facilmente me ajudaria com a criação deste website pelo qual lhes escrevo. Não posso me esquecer também da ajudo do Magnum do <a href="https://hackncast.org/">Hack 'n' Cast</a>, que me deu uma força com a configuração do Pelican.
+Quando era mais novo tive a oportunidade de criar alguns páginas em <strong>HTML</strong>, utilizando o Netscape Composer, Frontpage e Dreanweaver todo foram hospedados no saudoso Geocities, essas pequenas experiências se perderam com o tempo. Contudo a algumas semanas escutando o <a href="http://castalio.info/">Castalio Podcast</a> tive conhecimento do <a href="https://blog.getpelican.com/">Pelican</a>, um gerador de site estáticos que facilmente me ajudaria com a criação deste website pelo qual lhes escrevo. Não posso me esquecer também da ajuda do Magnun do <a href="https://hackncast.org/">Hack 'n' Cast</a>, que me deu uma força com a configuração do Pelican.
 Sendo assim inicio mais uma vez minha saga nas interwebs da vida com esta primeira publicação, na verdade espero que seja a primeira deste final de semana.<br>
 Uma menção honrosa aqui vai para o ao <strong><em>Sr. Github</em></strong> que está permitindo que este site seja hospedado gratuitamente em sua plataforma. =)</p>
 		</div> <!--/#entry-content-->
